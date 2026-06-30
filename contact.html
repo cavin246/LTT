@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Contact | Lubombo Thinkpulse Technologies{% endblock %}
+
+{% block content %}
+    <section style="padding-top:4rem;">
+        <div class="container">
+            <h1 class="section-title">Get in <span class="highlight">Touch</span></h1>
+            <div class="section-divider"></div>
+            <p class="section-sub">Let's work together to transform challenges into technology.</p>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="contact-grid">
+                <div>
+                    <h3 style="font-family:var(--font-display); font-weight:700; font-size:1.6rem;">Send a message</h3>
+                    <form class="contact-form" style="margin-top:1.5rem;">
+                        <input type="text" placeholder="Full name" required />
+                        <input type="email" placeholder="Email address" required />
+                        <input type="text" placeholder="Subject" />
+                        <textarea rows="4" placeholder="Tell us about your challenge..."></textarea>
+                        <button type="submit" class="btn">
+                            Send message <i class="fas fa-paper-plane" style="margin-left:8px;"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div>
+                    <h3 style="font-family:var(--font-display); font-weight:700; font-size:1.6rem;">Contact Information</h3>
+
+                    <div style="margin-top:1.5rem;">
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-pin"></i>
+                            <span>KwaLugedlane, Tonga 1341, Nkomazi, Mpumalanga, South Africa</span>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>
+                                <a href="tel:+27720347287">+27 72 034 7287</a> /
+                                <a href="tel:+27792619846">+27 79 261 9846</a>
+                            </span>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>
+                                <a href="mailto:thanithabiso6@gmail.com">thanithabiso6@gmail.com</a>
+                            </span>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon – Fri | 08:00 – 17:00 SAST</span>
+                        </div>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt" style="font-size:2rem; margin-right:10px;"></i>
+                        KwaLugedlane, Tonga 1341, Nkomazi, Mpumalanga, South Africa
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+{% endblock %}
